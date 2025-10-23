@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Code, Palette, Zap, TrendingUp, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Code, Palette, Zap, TrendingUp, Mail, Phone } from "lucide-react";
 import heroBg from "@/assets/hero-bg.jpg";
 import teamAlex from "@/assets/team-alex.jpg";
 import teamDavid from "@/assets/team-david.jpg";
@@ -294,7 +294,7 @@ const Index = () => {
             <div>
               <h3 className="text-xl font-bold mb-4 text-accent">Ocean Web Service</h3>
               <p className="text-background/80">
-                Crafting exceptional digital experiences since 2020
+                Crafting exceptional digital experiences
               </p>
             </div>
             <div>
@@ -318,37 +318,19 @@ const Index = () => {
               <ul className="space-y-2 text-background/80">
                 <li className="flex items-center gap-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@oceanweb.com</span>
+                  <span>info@oceanwebservices.com</span>
                 </li>
                 <li className="flex items-center gap-2">
                   <Phone className="w-4 h-4" />
-                  <span>+1 (555) 123-4567</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <MapPin className="w-4 h-4" />
-                  <span>San Francisco, CA</span>
+                  <span>+1 (888) 263-7301</span>
                 </li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-background/20 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p className="text-background/80 mb-4 md:mb-0">
-              © 2024 Ocean Web Service. All rights reserved.
+          <div className="border-t border-background/20 pt-8">
+            <p className="text-background/80 text-center">
+              © 2025 OceanWebService. All rights reserved.
             </p>
-            <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-accent transition-colors flex items-center justify-center">
-                <Facebook className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-accent transition-colors flex items-center justify-center">
-                <Twitter className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-accent transition-colors flex items-center justify-center">
-                <Linkedin className="w-5 h-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-background/10 hover:bg-accent transition-colors flex items-center justify-center">
-                <Instagram className="w-5 h-5" />
-              </a>
-            </div>
           </div>
         </div>
       </footer>
